@@ -192,13 +192,7 @@
   <input type="text" id="identity_type" name="identity_type" class="form-control"  value="">
   </div>
   </div>
-  <div class="col-md-6">
-  <div class="form-group">
-  <label for="retirement_age" class="control-label">
-  <small class="req text-danger"></small>Retirement Age</label>
-  <input type="hidden" id="retirement_age" name="retirement_age" class="form-control"  value="">
-  </div>
-  </div>
+ 
   <div class="col-md-6">
   <div class="form-group">
   <label for="identity_number" class="control-label">
