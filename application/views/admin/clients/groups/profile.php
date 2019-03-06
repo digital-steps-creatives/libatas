@@ -209,7 +209,11 @@
   <div class="col-md-6">
   <div class="form-group"> 
   <label for="country_id_issued" class="control-label">
+<<<<<<< HEAD
   <small class="req text-danger"> </small>Country of ID Issuance</label>
+=======
+  <small class="req text-danger"> </small>Country of ID Issue</label>
+>>>>>>> f122cf3dc461e9a1242307bb40c2c5c7e0243de2
   <input type="text" id="country_id_issued" name="country_id_issued" class="form-control" value="">
   </div>
   </div>
