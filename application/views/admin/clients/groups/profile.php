@@ -133,49 +133,49 @@
   <div class="col-md-6">
   <div class="form-group">
   <label for="beneficiary_email" class="control-label">
-  <small class="req text-danger">* </small>Beneficiary Email Address</label>
+  <small class="req text-danger"> </small>Beneficiary Email Address</label>
   <input type="email" id="beneficiary_email" name="beneficiary_email" class="form-control"  value="">
   </div>
   </div>
   <div class="col-md-6">
   <div class="form-group">
   <label for="beneficiary_name" class="control-label">
-  <small class="req text-danger">* </small>Beneficiary Name</label>
+  <small class="req text-danger"> </small>Beneficiary Name</label>
   <input type="text" id="beneficiary_name" name="beneficiary_name" class="form-control"   value="">
   </div>
   </div>
   <div class="col-md-6">
   <div class="form-group">
   <label for="beneficiary_surname" class="control-label">
-  <small class="req text-danger">* </small>Beneficiary Surname</label>
+  <small class="req text-danger"> </small>Beneficiary Surname</label>
   <input type="text" id="beneficiary_surname" name="beneficiary_surname" class="form-control" value="">
   </div>
   </div>
   <div class="col-md-6">
        <div class="form-group">
   <label for="beneficiary_contacts" class="control-label">
-  <small class="req text-danger">* </small>Beneficiary Contacts</label>
+  <small class="req text-danger"> </small>Beneficiary Contacts</label>
   <input type="text" id="beneficiary_contacts" name="beneficiary_contacts" class="form-control" value="">
   </div>
   </div>
   <div class="col-md-6">
   <div class="form-group">
   <label for="beneficiary_id_number" class="control-label">
-  <small class="req text-danger">* </small>Beneficiary ID</label>
+  <small class="req text-danger"> </small>Beneficiary ID</label>
   <input type="number" id="beneficiary_id_number" name="beneficiary_id_number" class="form-control"  value="">
   </div>
   </div>
   <div class="col-md-6">
   <div class="form-group">
   <label for="beneficiary_bank_acc" class="control-label">
-  <small class="req text-danger">* </small>Beneficiary  Bank Account</label>
+  <small class="req text-danger"> </small>Beneficiary  Bank Account</label>
   <input type="text" id="beneficiary_bank_acc" name="beneficiary_bank_acc" class="form-control" value="">
   </div>
   </div>
   <div class="col-md-6">
   <div class="form-group" >
   <label for="relationship" class="control-label">
-  <small class="req text-danger">* </small>Relationship</label>
+  <small class="req text-danger"> </small>Relationship</label>
   
   <select id="relationship" name="relationship" class="form-control">
       <option value="Husband">Husband</option>
@@ -195,21 +195,21 @@
   <div class="col-md-6">
   <div class="form-group">
   <label for="retirement_age" class="control-label">
-  <small class="req text-danger">* </small>Retirement Age</label>
-  <input type="text" id="retirement_age" name="retirement_age" class="form-control"  value="">
+  <small class="req text-danger"></small>Retirement Age</label>
+  <input type="hidden" id="retirement_age" name="retirement_age" class="form-control"  value="">
   </div>
   </div>
   <div class="col-md-6">
   <div class="form-group">
   <label for="identity_number" class="control-label">
-  <small class="req text-danger">* </small>Identity Number</label>
+  <small class="req text-danger"></small>Identity Number</label>
   <input type="number" id="identity_number" name="identity_number" class="form-control" value="">
   </div>
   </div>
   <div class="col-md-6">
   <div class="form-group"> 
   <label for="country_id_issued" class="control-label">
-  <small class="req text-danger">* </small>Country of ID Issuance</label>
+  <small class="req text-danger"> </small>Country of ID Issuance</label>
   <input type="text" id="country_id_issued" name="country_id_issued" class="form-control" value="">
   </div>
   </div>
