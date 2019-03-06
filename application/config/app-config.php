@@ -17,7 +17,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 * environments.
 *
 */
-define('APP_BASE_URL', 'https://libertas-fund.com/staging');
+define('APP_BASE_URL', 'http://app.libertas-fund.com');
 
 /*
 * --------------------------------------------------------------------------
@@ -40,11 +40,11 @@ define('APP_ENC_KEY', 'c72f5fcb273c0f5c73593dde603c3f1c');
 /* The hostname of your database server. */
 define('APP_DB_HOSTNAME', 'localhost');
 /* The username used to connect to the database */
-define('APP_DB_USERNAME', 'libertas_magiks');
+define('APP_DB_USERNAME', 'root');
 /* The password used to connect to the database */
-define('APP_DB_PASSWORD', 'PK,GVtC~a~hx');
+define('APP_DB_PASSWORD', '1JvF3!jJFIVM*%64');
 /* The name of the database you want to connect to */
-define('APP_DB_NAME', 'libertas_staging');
+define('APP_DB_NAME', 'final_db');
 
 /**
  *
@@ -64,3 +64,4 @@ define('SESS_SAVE_PATH', 'tblsessions');
  * Enables CSRF Protection
  */
 define('APP_CSRF_PROTECTION', true);
+
