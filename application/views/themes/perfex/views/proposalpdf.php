@@ -321,7 +321,7 @@ if ($dec=="Edge") {
   # code...
 }elseif ($dec=="Fusion") {
 
-  $rate=2;
+  $rate=3;
 }
 
 $html1 .='<table style="text-align:center;  border-collapse: collapse;">';
