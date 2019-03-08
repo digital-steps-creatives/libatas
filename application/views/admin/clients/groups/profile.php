@@ -200,6 +200,7 @@
   <input type="number" id="identity_number" name="identity_number" class="form-control" value="">
   </div>
   </div>
+<<<<<<< HEAD
   <div class="col-md-6">
   <div class="form-group"> 
   <label for="country_id_issued" class="control-label">
@@ -211,6 +212,9 @@
   <input type="text" id="country_id_issued" name="country_id_issued" class="form-control" value="">
   </div>
   </div>
+=======
+ 
+>>>>>>> cb2a2932cdaf0ec910897ea0e36108bd032d04c2
   <div class="col-md-6">
   
   <div class="form-group">
