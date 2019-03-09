@@ -44,92 +44,93 @@
 </div>
       <div class="tab-content">
          <?php do_action('after_custom_profile_tab_content',isset($client) ? $client : false); ?>
-         
+         <?php if($customer_custom_fields) { ?>
          <div role="tabpanel" class="tab-pane" id="custom_fields">
-            <div class="row">
+            
+         <div class="row">
             <div class="col-md-6">
         
-            <div class="form-group">
-            <label for="titles" class="control-label">
-            <small class="req text-danger">* </small>Title</label>
-            <input type="text" id="titles" name="titles" class="form-control"  value="">
-            </div>
+                  <div class="form-group">
+                        <label for="titles" class="control-label">
+                        <small class="req text-danger"></small>Title</label>
+                        <input type="text" id="titles" name="titles" class="form-control"  value="">
+                  </div>
             </div>
             <div class="col-md-6">
            
-            <div class="form-group" app-field-wrapper="surname">
-            <label for="surname" class="control-label">
-            <small class="req text-danger">* </small>Surname</label>
-            <input type="text" id="surname" name="surname" class="form-control" value="">
-            </div>
-            </div>
-            <div class="col-md-6">
-            <div class="form-group">
-            <label for="client_name" class="control-label">
-            <small class="req text-danger">* </small>Name</label>
-            <input type="text"  name="client_name" class="form-control"  value="">
-            </div>
+                  <div class="form-group" app-field-wrapper="surname">
+                        <label for="surname" class="control-label">
+                        <small class="req text-danger"></small>Surname</label>
+                        <input type="text" id="surname" name="surname" class="form-control" value="">
+                  </div>
             </div>
             <div class="col-md-6">
-            <div class="form-group">
-            <label for="dob" class="control-label">
-            <small class="req text-danger">* </small>Date of Birth</label>
-            <input type="text" name="dob" class="form-control datepicker" value="">
+                  <div class="form-group">
+                        <label for="client_name" class="control-label">
+                        <small class="req text-danger"></small>Name</label>
+                        <input type="text"  name="client_name" class="form-control"  value="">
+                  </div>
             </div>
+            <div class="col-md-6">
+                  <div class="form-group">
+                        <label for="dob" class="control-label">
+                        <small class="req text-danger"></small>Date of Birth</label>
+                        <input type="text" name="dob" class="form-control datepicker" value="" required>
+                  </div>
             </div>
             <div class="col-md-6">
             
-            <div class="form-group">
-            <label for="" class="control-label">
-            <small class="req text-danger">* </small>Gender</label>
-           
-            <select name="gender" class="form-control">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-            </select>
-            </div>
-            </div>
-            <div class="col-md-6">
-            <div class="form-group">
-            <label for="marital_status" class="control-label">
-            <small class="req text-danger">* </small>Marital Status</label>
-           
-            <select name="marital_status" class="form-control">
-                <option value="Married">Married</option>
-                <option value="Single">Single</option>
-            </select>
-            </div>
+                  <div class="form-group">
+                        <label for="" class="control-label">
+                        <small class="req text-danger"></small>Gender</label>
+                     
+                        <select name="gender" class="form-control">
+                           <option value="Male">Male</option>
+                           <option value="Female">Female</option>
+                        </select>
+                  </div>
             </div>
             <div class="col-md-6">
-            <div class="form-group">
-            <label for="contact_number" class="control-label">
-            <small class="req text-danger">* </small>Contact Number</label>
-            <input type="text" id="contact_number" name="contact_number" class="form-control"  value="">
-            </div>
+                  <div class="form-group">
+                        <label for="marital_status" class="control-label">
+                        <small class="req text-danger"></small>Marital Status</label>
+                     
+                        <select name="marital_status" class="form-control">
+                           <option value="Married">Married</option>
+                           <option value="Single">Single</option>
+                        </select>
+                  </div>
             </div>
             <div class="col-md-6">
-  <div class="form-group">
-  <label for="mail_address" class="control-label">
-  <small class="req text-danger">* </small>Mail Address</label>
-  <input type="text" id="mail_address" name="mail_address" class="form-control"  value="">
+                  <div class="form-group">
+                        <label for="contact_number" class="control-label">
+                        <small class="req text-danger"></small>Contact Number</label>
+                        <input type="text" id="contact_number" name="contact_number" class="form-control"  value="">
+                  </div>
+            </div>
+            <div class="col-md-6">
+                  <div class="form-group">
+                        <label for="mail_address" class="control-label">
+                        <small class="req text-danger"></small>Mail Address</label>
+                        <input type="text" id="mail_address" name="mail_address" class="form-control"  value="">
+                  </div>
   </div>
-  </div>
-  <div class="col-md-6">
-  </a>
-  <div class="form-group">
-  <label for="cell_number" class="control-label">
-  <small class="req text-danger">* </small>Cell Number</label>
-  <input type="text" id="cell_number" name="cell_number" class="form-control"  value="">
-  </div>
-  </div>
-  <div class="col-md-6">
-  </a>
-  <div class="form-group">
-  <label for="physical_address" class="control-label">
-  <small class="req text-danger">* </small>Physical Address</label>
-  <input type="text" id="physical_address" name="physical_address" class="form-control">
-  </div>
-  </div>
+            <div class="col-md-6">
+            
+                  <div class="form-group">
+                        <label for="cell_number" class="control-label">
+                        <small class="req text-danger"></small>Cell Number</label>
+                        <input type="text" id="cell_number" name="cell_number" class="form-control"  value="">
+                  </div>
+            </div>
+            <div class="col-md-6">
+
+                  <div class="form-group">
+                        <label for="physical_address" class="control-label">
+                        <small class="req text-danger"></small>Physical Address</label>
+                        <input type="text" id="physical_address" name="physical_address" class="form-control">
+                  </div>
+            </div>
   <div class="col-md-6">
   <div class="form-group">
   <label for="beneficiary_email" class="control-label">
@@ -165,13 +166,7 @@
   <input type="number" id="beneficiary_id_number" name="beneficiary_id_number" class="form-control"  value="">
   </div>
   </div>
-  <div class="col-md-6">
-  <div class="form-group">
-  <label for="beneficiary_bank_acc" class="control-label">
-  <small class="req text-danger"> </small>Beneficiary  Bank Account</label>
-  <input type="text" id="beneficiary_bank_acc" name="beneficiary_bank_acc" class="form-control" value="">
-  </div>
-  </div>
+
   <div class="col-md-6">
   <div class="form-group" >
   <label for="relationship" class="control-label">
@@ -188,78 +183,72 @@
   <div class="col-md-6">
   <div class="form-group">
   <label for="identity_type" class="control-label">
-  <small class="req text-danger">* </small>Identity Type</label>
-  <input type="text" id="identity_type" name="identity_type" class="form-control"  value="">
+  <small class="req text-danger"></small>Identity Type</label>
+  <input type="text" id="identity_type" name="identity_type" class="form-control"  value="" required>
   </div>
   </div>
   <div class="col-md-6">
   <div class="form-group"> 
   <label for="country_id_issued" class="control-label">
   <small class="req text-danger"></small>Country of ID Issue</label>
-  <input type="text" id="country_id_issued" name="country_id_issued" class="form-control" value="">
+  <input type="text" id="country_id_issued" name="country_id_issued" class="form-control" value="" required>
   </div>
   </div>
   <div class="col-md-6">
   <div class="form-group">
   <label for="identity_number" class="control-label">
   <small class="req text-danger"></small>Identity Number</label>
-  <input type="number" id="identity_number" name="identity_number" class="form-control" value="">
+  <input type="number" id="identity_number" name="identity_number" class="form-control" value="" required>
   </div>
   </div>
-<<<<<<< HEAD
+
   <div class="col-md-6">
-  <div class="form-group"> 
-  <label for="country_id_issued" class="control-label">
-<<<<<<< HEAD
-  <small class="req text-danger"> </small>Country of ID Issuance</label>
-=======
-  <small class="req text-danger"> </small>Country of ID Issue</label>
->>>>>>> f122cf3dc461e9a1242307bb40c2c5c7e0243de2
-  <input type="text" id="country_id_issued" name="country_id_issued" class="form-control" value="">
+         <div class="form-group"> 
+               <label for="country_id_issued" class="control-label">
+
+               <small class="req text-danger"> </small>Country of ID Issue</label>
+               <input type="text" id="country_id_issued" name="country_id_issued" class="form-control" value="">
+         </div>
   </div>
-  </div>
-=======
- 
->>>>>>> cb2a2932cdaf0ec910897ea0e36108bd032d04c2
+
   <div class="col-md-6">
   
-  <div class="form-group">
-  <label for="academic_qualification" class="control-label">
-  <small class="req text-danger">* </small>Highest Academic Qualification</label>
-  
-  <select id="academic_qualification" name="academic_qualification" class="form-control select2">
-      <option value="Diploma">Diploma</option>
-      <option value="Degree">Degree</option>
-      <option value="Masters">Masters</option>
-      <option value="PhD">PhD</option>
-  </select>
-  </div>
+         <div class="form-group">
+               <label for="academic_qualification" class="control-label">
+               <small class="req text-danger"></small>Highest Academic Qualification</label>
+               
+               <select id="academic_qualification" name="academic_qualification" class="form-control select2">
+                     <option value="Diploma">Diploma</option>
+                     <option value="Degree">Degree</option>
+                     <option value="Masters">Masters</option>
+                     <option value="PhD">PhD</option>
+               </select>
+         </div>
   </div>
   <div class="col-md-6">
-  <div class="form-group">
-  <label for="clientbank_name" class="control-label">
-  <small class="req text-danger">* </small> Bank </label>
-  <input type="text" id="clientbank_name" name="clientbank_name" class="form-control" value="">
-  </div>
+         <div class="form-group">
+               <label for="clientbank_name" class="control-label">
+               <small class="req text-danger"></small> Bank </label>
+               <input type="text" id="clientbank_name" name="clientbank_name" class="form-control" value="">
+         </div>
   </div>
          <div class="col-md-6">
                   <div class="form-group">
                         <label for="clientbank_acc" class="control-label">
-                        <small class="req text-danger">* </small>Account Number:</label>
+                        <small class="req text-danger"></small>Account Number:</label>
                         <input type="text" id="clientbank_acc" name="clientbank_acc" class="form-control" value="">
                   </div>
          </div>
          <div class="col-md-6">
                   <div class="form-group">
                      <label for="client_bank_branchcode" class="control-label">
-                     <small class="req text-danger">* </small>Branch Code: </label>
+                     <small class="req text-danger"></small>Branch Code: </label>
                      <input type="text" id="client_bank_branchcode" name="client_bank_branchcode" class="form-control"  value="">
                   </div>
          </div>
-  </div>
-           
-       
-        
+         </div>
+         </div>
+         <?php } ?>
          <div role="tabpanel" class="tab-pane<?php if(!$this->input->get('tab')){echo ' active';}; ?>" id="contact_info">
             <div class="row">
                <div class="col-md-12<?php if(isset($client) && (!is_empty_customer_company($client->userid) && total_rows('tblcontacts',array('userid'=>$client->userid,'is_primary'=>1)) > 0)) { echo ''; } else {echo ' hide';} ?>" id="client-show-primary-contact-wrapper">
