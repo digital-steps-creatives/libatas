@@ -1,6 +1,6 @@
 RewriteEngine on
-RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond $1 !^(index\.php|public|\.txt)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
-AddDefaultCharset utf-8
+RewriteRule ^(.*)$ index.php?$1
+RewriteRule ^(.*)$ /new/index.php?/$1 [L,QSA]
