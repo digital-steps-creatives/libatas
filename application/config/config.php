@@ -229,7 +229,7 @@ $config['directory_trigger']    = 'd';
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = (ENVIRONMENT !== 'production' ? 1 : 0);
+$config['log_threshold'] = (ENVIRONMENT !== 'production' ? 4 : 4);
 
 if (defined('APP_LOG_THRESHOLD')) {
     $config['log_threshold'] = APP_LOG_THRESHOLD;

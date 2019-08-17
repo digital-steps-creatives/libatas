@@ -401,61 +401,25 @@ $pdf->AddPage();
 	$pdf->lastPage();
 
 	//third page
-	$html2 = ' <h2>Company Banking Details Off-Shore</h2>
-
-
-	<table width="100%" bgcolor="#fff" cellspacing="0" cellpadding="8">
-<tr>
-<td>Account Name: </td><td>DVT CONSULT LIMITED</td>
-</tr>
-<tr>
-<td>Account Number:</td><td>0515117461302 (USD)</td>
-</tr>
-<tr>
-<td>IBAN Number:</td><td>AE070260000515117461302</td>
-</tr>
-<tr>
-<td>SWIFT Code:</td><td>EBILAEAD</td>
-</tr>
-<tr>
-<td>Branch Name:</td><td>JUMEIRAH BRANCH</td>
-</tr>
-<tr>
-<td>Bank Name & Address:</td><td>Emirates NBD Bank PJSC P.O. Box 777 Al Was! Road, Dubai</td>
-</tr>
-<tr>
-<td>Relationship Manager :</td><td>MR. Mohammed Khurram Aijaz</td>
-</tr>
-<tr>
-<td>Contact Numbers:</td><td>00971-50-2659459</td>
-</tr>
-<tr>
-<td>Tel. Number: </td><td>00971-4-4053205</td>
-</tr>
-<tr>
-<td>Email: </td><td>MohammedAlI@emiratesnbd.com</td>
-
-</tr>
-
-<tr>
-<td>Website: </td><td>http://www.emiratesnbd.com/en/businessbanking</td>
-</tr>
-</table><br>
-    <h2>Company Banking Details Local</h2>
+	$html2 = ' <br>
+    <h2>Local Banking Details </h2>
 
 
 <table width="100%" bgcolor="#fff" cellspacing="0" cellpadding="8">
 <tr>
-<td>Bank Name & Address: </td><td>DVT CONSULT LIMITED</td>
+<td>Bank Name & Address: </td><td>First National Bank</td>
 </tr>
 <tr>
-<td>Account Number:</td><td>0515117461302 (USD)</td>
+<td>Account Name:</td><td>Libertas GH</td>
 </tr>
 <tr>
-<td>Branch Code:</td><td>AE070260000515117461302</td>
+<td>Account Number:</td><td>62803002691</td>
 </tr>
 <tr>
-<td>Reference:</td><td>EBILAEAD</td>
+<td>Branch Code:</td><td>250 655</td>
+</tr>
+<tr>
+<td>Reference:</td><td>'.$stuff[0]['firstname'].'  '.$stuff[0]['lastname'].'</td><td>Cell:'.$stuff[0]['phone'].'</td>
 </tr>
 <tr>
 <td>Client Name and Surname:</td><td>'.$tblcustomfieldsvalues[0]['client_name'].'   '.$tblcustomfieldsvalues[0]['surname'].'</td>

@@ -17,7 +17,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 * environments.
 *
 */
-define('APP_BASE_URL', 'http://libertas-fund.test');
+define('APP_BASE_URL', 'https://app.libertas-fund.com');
 
 /*
 * --------------------------------------------------------------------------
@@ -40,11 +40,11 @@ define('APP_ENC_KEY', 'c72f5fcb273c0f5c73593dde603c3f1c');
 /* The hostname of your database server. */
 define('APP_DB_HOSTNAME', 'localhost');
 /* The username used to connect to the database */
-define('APP_DB_USERNAME', 'root');
+define('APP_DB_USERNAME', 'final_db');
 /* The password used to connect to the database */
-define('APP_DB_PASSWORD', '');
+define('APP_DB_PASSWORD', 'fQRR!niK9Kp6!RnQ');
 /* The name of the database you want to connect to */
-define('APP_DB_NAME', 'libertas-final');
+define('APP_DB_NAME', 'final_db');
 
 /**
  *

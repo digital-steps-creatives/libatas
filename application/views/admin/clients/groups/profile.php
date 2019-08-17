@@ -184,12 +184,15 @@
   <div class="form-group">
   <label for="identity_type" class="control-label">
   <small class="req text-danger"></small>Identity Type</label>
-  <input type="text" id="identity_type" name="identity_type" class="form-control"  value="<?= $value=( isset($client) ? $client->identity_type : '');?>" required>
+  <select class="form-control" name="identity_type">
+	<option value="national id">National Id</option>
+	<option value="passport">Passport</option>
+</select>
   </div>
   </div>
   <div class="col-md-6">
   <div class="form-group"> 
-  <label for="country_id_issued" class="control-label">
+  <label for="country_id_issued" class="control-label" value="South Africa">
   <small class="req text-danger"></small>Country of ID Issue</label>
   <input type="text" id="country_id_issued" name="country_id_issued" class="form-control" value="<?= $value=( isset($client) ? $client->country_id_issued : '');?>" required>
   </div>
